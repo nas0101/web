@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 7px;
+  width: 5%;
+  margin: 50px auto;
+}
+
+.topContainer {
+  background-color: #dff6f0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middleContainer {
+  margin: 100px 0 50px ;
+}
+
+.bottomContainer {
+  background-color: #66BFBF;
+  line-height: 3;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.topCloud {
+  position: absolute;
+  right: 450px;
+  top:50px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.profileImage {
+  height: 100px;
+  border-radius: 100px;
+}
+
+.logoImage {
+  height: 25px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+  display: inline-block;
+}
+
+.compImage {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.curryImage {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.myButton {
+	box-shadow: 0 1px 0 0 #f0f7fa;
+	background:linear-gradient(to bottom, #66bfbf 5%, #66bfbf 100%);
+	background-color:#66bfbf;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #5b6178;
+  margin: 50px auto;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #66bfbf 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link {
+  color: #1199E;
+}
+
+.copyrightInfo {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.linkContainer {
+  display: inline-block;
+  margin: 0 10px;
+}
